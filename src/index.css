@@ -1,15 +1,66 @@
-@import-normalize; /* bring in normalize.css styles */
-
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  background: #f7f7f7;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Stalinist+One&display=swap');
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.blurd {
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px 20px;
+  background-color: #42424252;
+}
+.flexdivs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+/* backdrop-filter: blur(15px); */
+h1 {
+  margin-top: 0;
+  color: white;
+}
+.titls {
+  width: 250px;
+}
+.titls h1 {
+  font-family: 'Stalinist One', sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+}
+.titls p {
+  color: white;
+  font-size: 12px;
+}
+.titls a {
+  color: rgb(236, 218, 182);
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+  cursor: pointer;
+}
+input,
+button {
+  padding: 6px 8px;
+  margin: 4px 0;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 6px;
+  border-bottom: 1px solid #7979797a;
+  font-family: 'Montserrat', sans-serif;
+}
+.controls {
+  display: flex;
+  gap: 8px;
 }
